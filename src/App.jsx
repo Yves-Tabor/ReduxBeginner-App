@@ -1,7 +1,20 @@
+import "./App.css";
+import Login from "./pages/components/Login";
+import Profile from "./pages/components/Profile";
+import ChangeColor from "./pages/components/ChangeColor";
+
 function App() {
     return (
-        <div>
-            <h1>Redux Beginner App</h1>
+        <div className="App">
+            <div className="Profile">
+                <Profile />
+            </div>
+            <div className="Login">
+                <Login />
+            </div>
+            <div className="ChangeColor">
+                <ChangeColor />
+            </div>
         </div>
     );
 }
